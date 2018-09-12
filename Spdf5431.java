@@ -27,15 +27,15 @@ Scanner tcl = new Scanner(System.in);
                     obj1 = false;
                     break;
                 default:
-                    System.out.println("Digite uma ação válida");
+                    System.out.println("Digite uma opção");
             }
         }
     }
     public void menu() {
-        System.out.println("--CAIXA ELETRONICO--");
+        System.out.println("--CAIXA ELETRôNICO--");
         System.out.println("1-Saldo");
         System.out.println("2-Sacar");
-        System.out.println("3-Deposito");
+        System.out.println("3-Depositar");
         System.out.println("4-Salr");
     }
 
@@ -57,6 +57,6 @@ Scanner tcl = new Scanner(System.in);
     }
     public void sair(){
             System.out.println("Obrigado por trabalhar conosco!"
-                    + "Até logo");
+                    + "Até Mais");
     }
 }
